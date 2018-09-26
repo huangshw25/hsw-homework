@@ -1,16 +1,5 @@
 ---
 layout: default
-title: 请将标题写在这里
----
-
-# 我的博客标题
-
-## 1、你会使用 vscode 编辑 markdown 了吗？
-
-你会使用 git bash 创建本地空间了吗？
-
-你能拉取本文档到本地了？它在 gh-pages 分支内，设置 Slate 主题！
-
-用 vscode 编辑它，然后提交！
-
-这个文档将发布在 https://your-account.github.io/homework 中！
+title: 30分的成长
+--
+第一次程序设计实验课非常简单，只要打Hello World，第二次就让我们完成数组和循环；虽然上网查询了很多资料，但最后还是没有明白数组的用法，最后在十二点前上交的作业经过matrix编译测试也只拿了30分，很大的打击；第二天面对求最大公约数和最小公倍数就学会了用num1，num2，tempt的盒子交换方法，也学会了for循环和while循环，收获良多。
