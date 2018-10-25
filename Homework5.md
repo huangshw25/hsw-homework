@@ -1,4 +1,7 @@
 1) Give the three representations of an AND gate and say in your words what AND means.
+https://github.com/huangshw25/hsw-homework/blob/gh-pages/images/FC3FBBE1-41BB-4F2D-9AC9-E6276A71CDDC.jpeg
+
+
 I think the AND gate is kind of logic diagram ,it can out put the result as output=input*input.
 
 2) Give the three representations of an XOR gate and say in your words what XOR means.
