@@ -9,3 +9,60 @@
 
 2、A computer has 64 MB (megabytes) of memory. How many bits are needed to address any single byte in memory?
 the bit is needed 2^16*2^10kb
+
+3、List basic parts of a CPU, include cache or not?
+The cpu components
+First is the unit ALU,which performs simple arithmetic and logical operations.
+
+Second is the control unit (CU), which manages the various components of the computer. It reads and interprets instructions
+from memory and transforms them into a series of signals to activate other parts of the computer.
+
+Third is the cache, which serves as high-speed memory where instructions can be copied to and retrieved. 
+
+4、What mean secondary storage. 
+List some on your PC
+Non-volatile device that hold data unit it is deleted or overwritten.
+My device has the Hard drive  、Solid-state drive  and USB thumb drive.
+ 
+5、使用维基百科，解释以下概念: CPU、
+
+A central processing unit (CPU) is the electronic circuitry within a computer that carries out the instructions of a computer
+program by performing the basic arithmetic, logical, control and input/output (I/O) operations specified by the instructions.
+The computer industry has used the term "central processing unit" at least since the early 1960s.[1] Traditionally, the term 
+"CPU" refers to a processor, more specifically to its processing unit and control unit (CU), distinguishing these core elements 
+of a computer from external components such as main memory and I/O circuitry.[2]
+
+RAM
+Alternatively referred to as main memory, primary memory, or system memory, Random Access Memory (RAM) is a hardware device 
+that allows information to be stored and retrieved on a computer. RAM is usually associated with DRAM, which is a type of
+memory module.
+
+ROM
+Short for Read-Only Memory, ROM is a storage medium that is used with computers and other electronic devices. As the name 
+indicates, data stored in ROM may only be read. It is either modified with extreme difficulty or not at all. ROM is mostly
+used for firmware updates. 
+
+Bus 
+(computing)、Parallel Computing 6、写一段文字，简单解释“云计算(cloud computing)”
+
+Cloud computing
+
+Cloud computing is a term used to describe services provided over a network by a collection of remote servers. This abstract 
+"cloud" of computers provides massive, distributed storage and processing power, which can be accessed by any Internet
+-connected device running a web browser.
+
+云计算就是将很多电脑CPU的运行空间，将这些机器集中在一起，用一个主程序将一个程序或需要计算的数据分配给这些机器，发挥其内存空间和运行功效，最大化计算效率.
+
+7、小孙买了计算机主板，说明书表明“支持双通道DDR3-1333内存， 最大支持16G”
+
+1)DDR3内存，“3”和“1333”的含义是什么?
+频率，1333MHz 3是DDr（双倍数据速率）的第三代
+
+2)小孙买8G DDR3-1600的内存能提高性能吗?
+不能，8G DDR3-1600内存条会被识别成8G DDR3-1333
+
+3)小孙买4G*2 DDR3-1333的内存能提高性能吗? 
+能，但要主板支持双通道内存，内存条需要插在正确的插槽中
+
+4)16G需要多少位地址?
+34位=log2^ （16*1024*10*24*1024）
