@@ -7,3 +7,5 @@
 6.Optical Drive
 7.Computer Case
 
+2、A computer has 64 MB (megabytes) of memory. How many bits are needed to address any single byte in memory?
+the bit is needed 2^16*2^10kb
