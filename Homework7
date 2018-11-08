@@ -1,0 +1,56 @@
+1、Program with machine language according to the following c. int_8 a = 1;
+int_8 c = a + 3;
+
+LOD # 1–>STO X –> LOD X –> ADD#3 –> STO Y –> HLT
+
+1)Write your assembly code & machine code
+Assembly code:
+assume: abc
+abc segment
+mov,ax,2
+mov,ax,ax
+mov,ax,ax
+abc ends
+end
+Int_a=2
+Int_y=a+8
+LOD#1->STO X->LOD X->ADD#8
+->STO Y->HLT
+
+
+2)Explain machine code execution with the fetch-decode-execute cycle 
+Main memory->Fetch 将pc的指令拷贝到指令集村其中->decode 从指令寄存器提取操作数->register->将操作数作用在目标地址上->execute 
+将操作数拷贝到寄存器中->Main memory  
+
+3)Explain functions about IR, PC, ACC registers in a CPU
+IR.instruction Register: 存放当前运行指令地址  
+PC：存放下一条指令所在方向
+ACC：累加器，将两条指令累加在一起后输出
+
+4)Explain physical meaning about vars a & c in a machine
+Sorry can’t find the information 
+
+
+2、简答题
+1)What are stored in memory?
+Instruction and Data
+
+2)Can a data or a instruction stored in the same place?
+Yes it can
+ 3) Explain Instruction Format with example instruction
+LOD#1->STO x
+3、解释以下词汇
+1)汇编语言(Assembly Language)
+用简单符号替代机器语言的二进制符号，比较方便阅读
+
+ 2)编译(Compiler)
+将非机器语言经过编译器发生的作用，让非机器语言翻译成机器语言
+
+ 3)命令式语言(Imperative programming) 
+最原始的规范，简单但必备的机器语言
+
+4)函数编程语言(Functional programming) 
+函数就是一种规范，在不改变变量本身的情况下将变量进行类似数学运算的方式，建立一个内存栈，最后完成操作和返回
+
+5)过程式编程(Procedural programming
+像python一样的编译语言，能够在不完成全部语句的方式下进行编译，有助于大型程序的设计
