@@ -1,0 +1,65 @@
+Hello everyone today I am gonna introduce some thing basic on how to design the program by the top-Down way,these blog will use  
+an example to deeply describe the way,it is the water machine ,let’s do it.
+
+  First part of the blog is the introduction part ,here are the review when I read the Wikipedia.Top -down design can affect lots  
+of area like the architecture, software engineering , computer science and so on.Today I am gonna tell you what I have learned  
+after reading the introduction of Top - down design from Wikipedia.
+According to Wikipedia,there are two basic rule that control the world which are top —down and bottom - up ,both of them are   
+commonest routine in the creatures brain.
+  For example ,the human beings,here are two indicators of our daily life .One is when we first find a new flower ,our mind will  
+be grasped due to its visually color,that is the bottom up effect. The other is the time when we designing a model,we will   
+initially consider it’s main look rather than the details ,only if we manage the design ,we will consider the detail function   
+and turn to find the way to complete it,that is the Top-down effect.
+There is no doubt that the Top -down design cost less time than bottom top design,however.It may cost more money because of   
+sometimes we must invent some tools to fulfill the function,but me,as a computer scientist,would prefer the top down design,I   
+think the supposed to be the most effective way to solve the problem .By the way,many people like me should use our analyst   
+skill more often ,that how we survive on the earth.
+  
+  Thank you for your great patient , I believed that you have learn something ,if you have a different view,you can email to   
+allenchris0720@icloud.com ,we can chat on the email.All right the second part of the blog is the pseudo code with washing   
+machine ,before we learn that ,we can use the internet to know “What’s the rule of pseudo code.”
+ 
+  Washing machine is so common in our daily life ,but have you ever consider about how does the box work.Ok , maybe we can   
+know that the electricity provide the power,the circuitry control the machine ,now I need you think more ,what are the
+Basic function of washing machine.Yes they are the bottom that can switch on or off,a water comes in function and time   
+function,the motivation of cylinder . Here is the pseudo code for washing machine .Remember if you try to write a pseudo code ，  
+
+following these rule .
+1.Main function include the variable  and the functions you need.
+2.define the functions  one by one 
+3.simply it!
+The pseudo code:
+
+Void washing_machine
+{
+motor_run
+Time_counter
+decide_to_stop
+}
+void motor_run
+{
+While the time isn’t over 10 min 
+Do
+{
+Left}
+While the time is over 10min but less than 20 min
+{Do 
+Right
+While the time is over 20min}
+{Do
+ left for 10 min 
+Right for 10 min
+Until 40min }
+Void time counter
+{
+If the water on
+Count the time until the machine stop
+}
+Void identify
+{
+Time counter
+If the time counter over 40min
+Print success
+Else
+Print fail
+Thank you for your reading hope you have already improved your skill today.See you next time.
