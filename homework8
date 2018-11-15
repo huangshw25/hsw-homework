@@ -1,0 +1,133 @@
+
+1、阅读 Pseudocode Standard。(答案可以打印)
+1)用伪代码描述将十进制转换成16进制的方法
+2)C语言实现(先用注释写好算法，然后翻译)
+3)使用 -1, 0, 1, 15, 26，3265 最为输入测试你的程序
+2、名词解释与对比
+1)Top-down design 
+  Top -down design can affect lots of area like the architecture, software engineering , computer science and so on.Today I am   
+gonna tell you what I have learned after reading the introduction of Top - down design from Wikipedia.
+According to Wikipedia,there are two basic rule that control the world which are top —down and bottom - up ,both of them are   
+commonest routine in the creatures brain.
+  For example ,the human beings,here are two indicators of our daily life .One is when we first find a new flower ,our mind will  
+be grasped due to its visually color,that is the bottom up effect. The other is the time when we designing a model,we will   
+initially consider it’s main look rather than the details ,only if we manage the design ,we will consider the detail function   
+and turn to find the way to complete it,that is the Top-down effect.
+There is no doubt that the Top -down design cost less time than bottom top design,however.It may cost more money because of   
+sometimes we must invent some tools to fulfill the function,but me,as a computer scientist,would prefer the top down design,I  
+think the supposed to be the most effective way to solve the problem .By the way,many people like me should use our analyst   
+skill more often ,that how we survive on the earth.
+  
+2) Work breakdown structure (WBS)
+  The work-breakdown structure provides a common framework for the natural development of the overall planning and control of a  
+contract and is the basis for dividing work into definable increments from which the statement of work can be developed and  
+technical, schedule, cost, and labor hour reporting can be established.[4]
+A work breakdown structure permits summing of subordinate costs for tasks, materials, etc., into their successively higher   
+level "parent" tasks, materials, etc. For each element of the work breakdown structure, a description of the task to be   
+performed is generated.[5] This technique (sometimes called a system breakdown structure[6]) is used to define and organize   
+the total scope of a project.
+  The WBS is organized around the primary products of the project (or planned outcomes) instead of the work needed to produce  
+the products (planned actions). Since the planned outcomes are the desired ends of the project, they form a relatively stable   
+set of categories in which the costs of the planned actions needed to achieve them can be collected. A well-designed WBS makes  
+it easy to assign each project activity to one and only one terminal element of the WBS. In addition to its function in cost   
+accounting, the WBS also helps map requirements from one level of system specification to another, for example a requirements  
+cross reference matrix mapping functional requirements to high level or low level design documents. The WBS may be displayed   
+horizontally in outline form, or vertically as a tree structure (like an organization chart).
+The development of the WBS normally occurs at the start of a project and precedes detailed project and task planning.
+
+3)简述管理学 WBS 与 信息学Top-down设计 的异同
+I think that WBS is a dividing action but top down is a design concept .
+3、仔细观察您洗衣机的运作过程，运用Top-down设计方法和Pseudocode 描述洗衣机控制程序。假设洗衣机可执行的基本操作如下: water_in_switch(open_close) // open 打开上水开关，close关闭 water_out_switch(open_close) // open 打开排水开关，close关闭 get_water_volume() //返回洗衣机内部水的高度
+Top and down 
+Washing machine 
+1.首先设计洗衣机的外观，做好防水装置
+2.设计排水管和入水管的位置
+3.设计风筒的旋转速度
+4.最后才设计程序
+设计程序使用伪代码
+void washing machine 
+{
+Void switch_on_and_switch_off
+Void open()
+{
+If press the bottom on on type 
+Do water_in
+If press the bottom on off type
+Do stop the machine
+}
+Void water_out_switch
+{
+If press the bottom of water out
+Do 
+Floating the water 
+If press the bottom of water  out and water _volume reach the highest
+Do
+End Floating the water
+Returned to the washing_machine
+}
+Void get_highest_water 
+{
+Give the time after press the bottom of water out ->time
+If the time over 5 mins
+Do
+End floating the water 
+Returning to  washing_machine 
+}
+
+
+
+motor_run(direction) // 电机转动。left左转，right右转，stop停 time_counter() // 返回当前时间计数，以秒为单位 halt(returncode) //  
+停机，success 成功 failure 失败
+1)请使用伪代码分解“正常洗衣”程序的大步骤。包括注水、浸泡等 
+
+Void washing_machine
+{
+motor_run
+Time_counter
+decide_to_stop
+}
+void motor_run
+{
+While the time isn’t over 10 min 
+Do
+{
+Left}
+While the time is over 10min but less than 20 min
+{Do 
+Right
+While the time is over 20min}
+{Do
+ left for 10 min 
+Right for 10 min
+Until 40min }
+Void time counter
+{
+If the water on
+Count the time until the machine stop
+}
+Void identify
+{
+Time counter
+If the time counter over 40min
+Print success
+Else
+Print fail
+
+
+2)进一步用基本操作、控制语句(IF、FOR、WHILE等)、变量与表达式，写出每 个步骤的伪代码 
+I’ve finished it on the top side
+
+3)根据你的实践，请分析“正常洗衣”与“快速洗衣”在用户目标和程序上的异同。 你认为是否存在改进(创新)空间，简单说明你的改进意见? 
+  Well , after doing the pseudo code ,I found that regular washing machine code can control the main part of the machine ,  
+but if we want to design our machine for the costumer,we can add some function to domain there need ,I think it is not   
+really hard to develop a new washing machine,but it should have the domain. 
+
+4)通过步骤3)，提取一些共性功能模块(函数)，简化“正常洗衣”程序，使程序 变得更利于人类理解和修改维护。例如:
+wait(time) //等待指定的时间;
+注水(volume,timeout) //在指定时间内完成注水，否则停机; 排水(timeout)。 等子程序
+The mutual function:
+Washing_machine , motor_run , switch and time control
+
+   These function can  be applied to all kind of machine ,it could save a lot of time ,As human being,ourselves, we should use   
+ our brain on finding new function ,successfullly invent new thing which can truly develop our life rather than keep fighting  
+ with the same thing . 
