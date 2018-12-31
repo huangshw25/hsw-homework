@@ -2,6 +2,7 @@
 首先我們要先去下載python3.6.7，也可以是winpython
 之後我們要瞭解兩個函數庫，分別是sympy已經npmpy這兩個分別是高等數學以及綫性代數的函數庫
 我先介紹綫性代數的函數庫吧（上圖）
+(https://github.com/huangshw25/hsw-homework/blob/gh-pages/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(12).png)
 
 
 圖上面我用了這個函數創建了一個矩陣m
@@ -15,6 +16,7 @@ import numpy.linalg
 輸入m*v即可
 
 現在讓我來介紹如何用矩陣做高數吧
+(https://github.com/huangshw25/hsw-homework/blob/gh-pages/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(12).png)
 from sympy import*
 
 之後讓我來叫你們坐定分
