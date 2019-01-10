@@ -1,0 +1,20 @@
+Today I am going to introduce the alogramth of 10 - 16
+
+We using the concept that the acsii For a is 65，and we add number to get Hex
+here is the function
+void To_Hex(unsigned int  value, char buffer[], int length)
+{
+    unsigned int i=(sizeof(unsigned  int)*2);
+    unsigned int temp;
+	int j=0;
+    while(i--)
+    {
+        temp = (value&(0xf<<(4*i)))>>(4*i);
+        if(temp>9)
+            buffer[j] = 'A'+temp-10;
+		else
+			buffer[j] = '0'+temp;
+		j++;
+    }
+	buffer[length] = '\0';
+}
